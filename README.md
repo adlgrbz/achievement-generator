@@ -2,10 +2,14 @@
 Minecraft achievement generator with Python
 
 ## Usage
+```bash
+git clone https://github.com/adlgrbz/achievement-generator
+cd achievement-generator/achievement-generator
+```
 Grant run permission: `chmod u+x ag.py`
 
 ```bash
-./ag -h or --help
+./ag.py --help
 
 ./ag.py -t "Expert Miner" -b "Find 100 diamonds!" -i pickaxe sample.png
 ```
