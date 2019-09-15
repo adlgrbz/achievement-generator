@@ -6,7 +6,7 @@ Minecraft achievement generator with Python
 git clone https://github.com/adlgrbz/achievement-generator
 cd achievement-generator/achievement-generator
 ```
-Grant run permission: `chmod u+x ag.py`
+Grant run permission: `chmod u+x mcag.py`
 
 ```bash
 ./mcag.py --help
