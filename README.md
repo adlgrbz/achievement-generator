@@ -9,10 +9,12 @@ cd achievement-generator/achievement-generator
 Grant run permission: `chmod u+x ag.py`
 
 ```bash
-./ag.py --help
+./mcag.py --help
 
-./ag.py -t "Expert Miner" -b "Find 100 diamonds!" -i pickaxe sample.png
+./mcag.py -t "Expert Miner" -b "Find 100 diamonds!" -i pickaxe sample.png
 ```
+Output:
+
 ![sample.png](https://raw.githubusercontent.com/adlgrbz/achievement-generator/master/achievement-generator/others/sample.png)
 
 go to [item list](https://github.com/adlgrbz/achievement-generator/tree/master/achievement-generator/items)
