@@ -8,7 +8,7 @@ setup(
     author_email='adlgrbz@protonmail.com',
     url='https://github.com/adlgrbz/achievement-generator',
     install_requires=[
-        'pillow==6.1.0',
+        'pillow==6.2.0',
     ],
     entry_points='''
         [console_scripts]
