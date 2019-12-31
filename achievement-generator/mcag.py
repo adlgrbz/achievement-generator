@@ -2,8 +2,8 @@
 
 """
 Minecraft Achievement Generator
-Author: Adil Gurbuz
-Mail: adlgrbz@protonmail.com
+Author: Adil Gürbüz
+Mail: adlgrbz@tutamail.com
 """
 
 import generator
