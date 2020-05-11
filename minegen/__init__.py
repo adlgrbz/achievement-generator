@@ -14,10 +14,9 @@ white = (255, 255, 255)
 for name in listdir(f"{this_dir}/data/items"):
     items.append(name.split(".")[0])
 
-bg = Image.open(f"{this_dir}/data/background.png")
 
-
-def generate(texts, item_name, file_name):
+def generate(texts, item_name, file_name="output.png"):
+    bg = Image.open(f"{this_dir}/data/background.png")
     item = Image.open(f"{this_dir}/data/items/{item_name}.png")
     bg.paste(item, (17, 16), mask=item)
 
