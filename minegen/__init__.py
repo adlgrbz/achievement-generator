@@ -3,7 +3,7 @@ from os import listdir, getcwd, path
 from PIL import Image, ImageDraw, ImageFont
 
 
-__version__ = "2.0.0"
+__version__ = "2.0.2"
 
 this_dir, this_filename = path.split(__file__)
 
@@ -11,8 +11,14 @@ items = []
 yellow = (255, 255, 0)
 white = (255, 255, 255)
 
-for name in listdir(f"{this_dir}/data/items"):
-    items.append(name.split(".")[0])
+items = sorted(
+    set(
+        filter(
+            lambda name: name[0],
+            [name.split(".")[0] for name in listdir(f"{this_dir}/data/items")],
+        )
+    )
+)
 
 
 def generate(texts, item_name, file_name="output.png"):
