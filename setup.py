@@ -1,8 +1,6 @@
+import minegen
 from os import path
 from setuptools import setup
-
-
-__version__ = "2.0.0"
 
 
 here = path.abspath(path.dirname(__file__))
@@ -12,7 +10,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="minegen",
-    version=__version__,
+    version=minegen.__version__,
     packages=["minegen"],
     package_dir={"minegen": "minegen"},
     description="Minecraft achievement generator",
