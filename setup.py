@@ -15,6 +15,7 @@ setup(
     package_dir={"minegen": "minegen"},
     description="Minecraft achievement generator",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/adlgrbz/minegen",
     author="Adil Gürbüz",
     author_email="adlgrbz@tutamail.com",
