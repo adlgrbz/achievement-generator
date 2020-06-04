@@ -3,7 +3,7 @@ from os import listdir, getcwd, path
 from PIL import Image, ImageDraw, ImageFont
 
 
-__version__ = "2.0.2"
+__version__ = "2.0.3"
 
 this_dir, this_filename = path.split(__file__)
 
