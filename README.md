@@ -1,6 +1,9 @@
 # minegen
 
-![](https://img.shields.io/badge/version-2.0-lightgrey) ![](https://img.shields.io/badge/python-3%2B-blue) ![](https://img.shields.io/badge/pillow-5.4.1%2B-orange) ![](https://img.shields.io/badge/license-MIT-green)
+![](https://img.shields.io/badge/python-3%2B-blue) 
+![](https://img.shields.io/pypi/v/minegen)
+![](https://img.shields.io/badge/pillow-5.4.1%2B-orange) 
+![](https://img.shields.io/badge/license-MIT-green)
 
 **MINE**craft achievement **GEN**erator with Python.</br>
 For information on achievement: [minecraft.gamepedia.com/Achievements](https://minecraft.gamepedia.com/Achievements)
@@ -9,14 +12,10 @@ For information on achievement: [minecraft.gamepedia.com/Achievements](https://m
 Only GNU/Linux
 
 ## Installing
-```sh
-git clone https://github.com/adlgrbz/minegen
-```
 
-Install via pip:
+Install via PyPi:
 ```sh
-cd minegen
-pip3 install .
+[sudo] pip3 install minegen
 ```
 
 ## Usage
