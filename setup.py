@@ -13,7 +13,7 @@ setup(
     version=minegen.__version__,
     packages=["minegen"],
     package_dir={"minegen": "minegen"},
-    description="Minecraft achievement generator",
+    description="MINEcraft achievement GENerator",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/adlgrbz/minegen",
